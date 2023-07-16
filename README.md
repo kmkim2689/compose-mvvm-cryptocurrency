@@ -65,6 +65,7 @@
       * get_coins => to get data about coins
       * get_coin => to get a single coin data
   * presentation
+    * components : components that all the screens share
     * every single screen, another package
       * coin_list
         * components
@@ -254,8 +255,10 @@
         * a bundle that contains information about the saved 'state'
         * 이것을 사용하여, 예상치 못한 오류 발생에도 앱을 복구할 수 있음
         * 또한, 이것은 navigation parameter 역시 보존할 수 있음
-        * 
 
 ---
 
-### setting up the screens
+### Issues During Project
+
+* https://salmonpack.tistory.com/34
+* https://developer.android.com/training/dependency-injection/hilt-android?hl=ko
